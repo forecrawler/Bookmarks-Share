@@ -1,7 +1,10 @@
-## Day 25 Demo Application Built Using Tornado , MongoDB , AngularJS, and OpenShift
+Bookmarks Share 
+=
 
-To deploy it on OpenShift
+Demo Application Built Using Tornado, MongoDB, AngularJS.
 
-```
-$ rhc create-app day25demo python-2.7 mongodb-2 --from-code https://github.com/shekhargulati/day25-tornado-demo-app.git
-```
+###Todo lists
+- [ ] 注册功能
+- [ ] 后台管理功能
+- [ ] 前端样式重构
+- [ ] Docker部署

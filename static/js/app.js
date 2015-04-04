@@ -26,7 +26,7 @@ function StoryCreateController($scope, $routeParams, $location, Story) {
 
     $scope.save = function () {
     	$scope.story.$save(function (story, headers) {
-    		toastr.success("Submitted New Story");
+    		toastr.success("Submitted New Bookmark");
             $location.path('/');
         });
     };
