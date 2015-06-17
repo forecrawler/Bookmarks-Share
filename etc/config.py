@@ -14,7 +14,7 @@ settings = {
         }
 
 MONGODB_DB_URL = 'mongodb://localhost:27017'
-MONGODB_DB_NAME = 'getbookmarks'
+MONGODB_DB_NAME = 'bookmarks'
 
 client = MongoClient(MONGODB_DB_URL)
 db = client[MONGODB_DB_NAME]
